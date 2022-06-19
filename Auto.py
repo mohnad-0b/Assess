@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 username = "" # your username
 password = '' # Password
 natno = "" # the ID number
-n = 5 # number of corses
+n = 5 # number of course
 
 browser = webdriver.Chrome(ChromeDriverManager().install())
 browser.get("https://app2.bau.edu.jo:7799/eval/Login.jsp")
